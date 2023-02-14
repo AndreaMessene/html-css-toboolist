@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=Livvic:ital,wght@0,500;0,600;1,700&family=Rowdies&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: rgb(220, 218, 218);
+}
+
+header{
+    background-color: whitesmoke;
+}
+
+#logo{
+    vertical-align: middle;
+    height: 60px;
+    display: inline-block;
+}
+
+#toboo{
+    
+    font-family: 'Livvic', sans-serif;
+    font-size:40px;
+    font-weight: bold;
+    display: inline-block; 
+    vertical-align: middle;  
+    line-height: 60px;
+}
+
+nav{
+    background-color: whitesmoke;    
+    margin-top: 20px;
+    padding: 15px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bottom{
+    margin-left: 40px;
+}
+
+.bottom-1, .bottom-2{    
+    display: inline-block;
+    padding: 8px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.bottom-1{
+    background-color: #45ABEA;
+    width: 75px;
+    color: whitesmoke;
+}
+
+.bottom-2{
+    width: 95px;
+    color: grey;
+    border: 1px solid grey;
+}
+
+.container{
+    max-width: 70%;
+    margin: auto;
+}
+
+main{
+    height: 550px;
+    background-color: whitesmoke;
+    margin-top: 5px;
+}
+
+.mini-main{
+    margin-left: 40px;
+}
+
+section{
+    padding: 10px 0;
+}
+
+h2{
+
+}
+
+li{   
+    margin: 15px 0 15px 1em;
+    list-style: none;
+}
+
+.freccia{
+    display: inline-block;
+    font-size: 15px;
+
+}
+
+.check-0::after,
+.check-1::after, 
+.check-6::after{
+    content: 'Editorial';
+    margin-left: 20px;
+    background-color: #45ABEA;
+    padding: 5px 10px 5px 10px;
+    font-size: 10px;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+
+.check{
+    display: inline-block;
+    color: #64C0A9;
+    border: 3px solid #64C0A9;
+    margin-right: 5px;
+    width: 25px;
+    text-align: center;
+    border-radius: 100%;
+    font-weight: bold;
+}
+
+.cross{
+    display: inline-block;
+    color: crimson;
+    border: 3px solid crimson;
+    margin-right: 5px;
+    width: 25px;
+    text-align: center;
+    border-radius: 100%;
+    font-weight: bold;
+}
+
+.Editorial::after{
+    content: 'Editorial';
+    margin-left: 10px;
+    background-color: #45ABEA;
+    padding: 8px 10px;
+    border-radius: 15px;
+    color: whitesmoke;
+    font-size: 13px;
+}
+
+.Q1-Goals::after{
+    content: 'Q1-Goals';
+    margin-left: 10px;
+    background-color: #9C72E4;
+    padding: 8px 10px;
+    border-radius: 15px;
+    color: whitesmoke;
+    font-size: 13px;
+}
+
+.Recruting::after{
+    content: 'Recruting';
+    margin-left: 10px;
+    background-color: #64C0A9;
+    padding: 8px 10px;
+    border-radius: 15px;
+    color: whitesmoke;
+    font-size: 13px;
+}
+
+.Mobile::after{
+    content: 'Mobile';
+    margin-left: 10px;
+    background-color: #F29E33;
+    padding: 8px 10px;
+    border-radius: 15px;
+    color: whitesmoke;
+    font-size: 13px;
+}
+
+.Website::after{
+    content: 'Website';
+    margin-left: 10px;
+    background-color: #D863A1;
+    padding: 8px 10px;
+    border-radius: 15px;
+    color: whitesmoke;
+    font-size: 13px;
+}
+
+
+.Sales::after{
+    content: 'Sales';
+    margin-left: 10px;
+    background-color: #B0C926;
+    padding: 8px 10px;
+    border-radius: 15px;
+    color: whitesmoke;
+    font-size: 13px;
+}
